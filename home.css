@@ -1,0 +1,241 @@
+@import url("hrrtps://fonts.googleapis.acom/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: TwitterChirp;
+}
+
+body {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  min-height: 100vh;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.left {
+  height: 450.55px;
+  position: relative;
+  float: left;
+  left: -515px;
+  display: flex;
+  left: -553px;
+  bottom: 290px;
+  opacity: 90%;
+}
+
+.right {
+  width: 600px;
+  background: transparent;
+  color: #fff;
+  position: relative;
+  left: -253px;
+  top: -103px;
+}
+
+.right h1 {
+  font-size: 64px;
+  text-align: center;
+  font-family: TwitterChirpExtendedHeavy;
+  position: relative;
+  right: 20px;
+  letter-spacing: -1.2px;
+  opacity: 90%;
+}
+
+.right h2 {
+  font-size: 31px;
+  font-family: TwitterChirpExtendedHeavy;
+  position: relative;
+  opacity: 90%;
+  top: 8px;
+  left: 8px;
+}
+
+.right .gbtn:hover {
+  background-color: #dddddd;
+  transition: 0.3s;
+}
+
+.right .abtn:hover {
+  background-color: #dddddd;
+  transition: 0.3s;
+}
+
+.right .crbtn:hover {
+  background-color: #1c8eda;
+  transition: 0.3s;
+}
+
+.right .sbtn:hover {
+  background-color: #07101a;
+  transition: 0.3s;
+}
+
+.right .gbtn {
+  width: 300px;
+  height: 36px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #0f1419;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.right .abtn {
+  width: 300px;
+  height: 36px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #0f1419;
+  font-weight: 600;
+}
+
+.right .crbtn {
+  width: 300px;
+  height: 36px;
+  background: #1d9bf0;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600;
+  position: relative;
+  bottom: 170px;
+  left: 10px;
+}
+
+.right .sbtn {
+  width: 300px;
+  height: 36px;
+  background: #000;
+  border: 1px solid black;
+  border-color: rgb(83, 100, 113);
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #1d9bf0;
+  font-weight: 600;
+  position: relative;
+  bottom: 120.5px;
+  left: 9.5px;
+}
+
+.g1btn i {
+  text-shadow: 0 0 1px #000, 0 0 1px #000;
+  position: relative;
+  right: 247px;
+  top: 12px;
+  color: #000;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.a1btn i {
+  text-shadow: 0 0 1px #000, 0 0 1px #000;
+  position: relative;
+  right: 247px;
+  top: 12px;
+  color: #000;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.terms {
+  font-size: 11px;
+  width: 300px;
+  resize: none;
+  position: relative;
+  bottom: 175px;
+  left: 10px;
+  color: #71767b;
+}
+
+.terms p a {
+  color: #1d9bf0;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.terms p a:hover {
+  text-decoration: underline;
+}
+
+.hr-lines:before {
+  content: " ";
+  display: flex;
+  height: 1px;
+  width: 134.92px;
+  background: #fff;
+  opacity: 20%;
+  position: relative;
+  left: -3px;
+  bottom: -10px;
+}
+
+.hr-lines:after {
+  content: " ";
+  height: 1px;
+  width: 134.92px;
+  background: #fff;
+  opacity: 20%;
+  display: block;
+  position: relative;
+  top: 50%;
+  right: 0px;
+  left: 3px;
+  bottom: -10px;
+}
+
+.hr-lines {
+  position: relative;
+  max-width: 500px;
+  min-width: 100%;
+  margin: 100px auto;
+}
+
+.right h3 {
+  font-size: 15px;
+  position: relative;
+  width: 500px;
+  resize: none;
+  left: 20px;
+  bottom: 80px;
+  display: flex;
+}
+
+.right .account {
+  font-size: 17.3px;
+  font-weight: bold;
+  position: relative;
+  bottom: 122px;
+  left: 10px;
+  opacity: 90%;
+}
+
+.right .g1btn {
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
+
+.right .a1btn {
+  position: relative;
+  top: 12px;
+  left: 10px;
+}

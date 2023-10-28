@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Reset</title>
+    <link rel="stylesheet" href="fpassstyle.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      option {
+        background-color: #4594c7;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Password Reset</h1>
+      <form action="passreset.html">
+        <div class="email">
+          <input type="email" placeholder="Your Email" required />
+          <i class="bx bxs-envelope"></i>
+        </div>
+
+        <div class="username">
+          <input type="text" placeholder="Username" required />
+          <i class="bx bxs-user"></i>
+        </div>
+
+        <div class="question">
+          <select class="question-box">
+            <option selected disabled>Security Question</option>
+            <option value="q1">What is your mother's name?</option>
+            <option value="q2">What is your father's name?</option>
+            <option value="q3">What is your first pet's name?</option>
+            <option value="q4">What is the name of your home town?</option>
+          </select>
+        </div>
+        <div class="answer">
+          <input type="text" placeholder="Your Answer" />
+        </div>
+
+        <button type="submit" class="btn">Reset Password</button>
+        <p><a href="home.html" class="HomePage-link">Home</a></p>
+      </form>
+    </div>
+  </body>
+</html>

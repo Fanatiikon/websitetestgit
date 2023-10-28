@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="home.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      @font-face {
+        font-family: TwitterChirpExtendedHeavy;
+        src: url(https://abs.twimg.com/fonts/chirp-extended-heavy-web.woff2)
+          format("woff2");
+        src: url(https://abs.twimg.com/fonts/chirp-extended-heavy-web.woff)
+          format("woff");
+        font-weight: 800;
+        font-style: "normal";
+        font-display: "swap";
+      }
+      @font-face {
+        font-family: TwitterChirp;
+        src: url(https://abs.twimg.com/fonts/chirp-regular-web.woff2)
+          format("woff2");
+        src: url(https://abs.twimg.com/fonts/chirp-regular-web.woff)
+          format("woff");
+        font-weight: 400;
+        font-style: "normal";
+        font-display: "swap";
+      }
+      @font-face {
+        font-family: TwitterChirp;
+        src: url(https://abs.twimg.com/fonts/chirp-medium-web.woff2)
+          format("woff2");
+        src: url(https://abs.twimg.com/fonts/chirp-medium-web.woff)
+          format("woff");
+        font-weight: 500;
+        font-style: "normal";
+        font-display: "swap";
+      }
+      @font-face {
+        font-family: TwitterChirp;
+        src: url(https://abs.twimg.com/fonts/chirp-bold-web.woff2)
+          format("woff2");
+        src: url(https://abs.twimg.com/fonts/chirp-bold-web.woff) format("woff");
+        font-weight: 700;
+        font-style: "normal";
+        font-display: "swap";
+      }
+      @font-face {
+        font-family: TwitterChirp;
+        src: url(https://abs.twimg.com/fonts/chirp-heavy-web.woff2)
+          format("woff2");
+        src: url(https://abs.twimg.com/fonts/chirp-heavy-web.woff)
+          format("woff");
+        font-weight: 800;
+        font-style: "normal";
+        font-display: "swap";
+      }
+    </style>
+  </head>
+  <body>
+    <div class="left">
+      <img src="img/twitterA.png" alt="" id="rcorners" />
+    </div>
+    <div class="right">
+      <h1>Happening now</h1>
+      <h2>Join today.</h2>
+
+      <div class="g1btn">
+        <button type="submit" class="gbtn">Sign up with Google</button>
+        <i class="bx bxl-google"></i>
+      </div>
+
+      <div class="a1btn">
+        <button type="submit" class="abtn">Sign up with Apple</button>
+        <i class="bx bxl-apple"></i>
+      </div>
+      <h3 class="hr-lines">or</h3>
+
+      <button
+        type="submit"
+        class="crbtn"
+        onclick="location.href='./Sign Up.html'"
+      >
+        Create Account
+      </button>
+
+      <div class="terms">
+        <p>
+          By signing up, you agree to the
+          <a href="terms.html">Terms of service</a> and
+          <a href="privacy.html">Privacy Policy</a>, including
+          <a href="cookies.html">Cookie Use</a>.
+        </p>
+      </div>
+      <p class="account">Already have an account?</p>
+
+      <button type="submit" class="sbtn" onclick="location.href='./login.html'">
+        Sign in
+      </button>
+    </div>
+  </body>
+</html>

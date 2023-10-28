@@ -1,0 +1,233 @@
+@import url("hrrtps://fonts.googleapis.acom/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: TwitterChirp;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.icon {
+  height: 450.55px;
+  width: 294.27;
+  position: absolute;
+  left: 300px;
+  bottom: 320px;
+}
+
+.wrapper {
+  width: 600px;
+  background: transparent;
+  color: #fff;
+  position: relative;
+  left: 407px;
+  top: 34px;
+}
+
+.wrapper h1 {
+  font-size: 64px;
+  text-align: center;
+  font-family: TwitterChirpExtendedHeavy;
+  position: relative;
+  right: 20px;
+  letter-spacing: -1.2px;
+  opacity: 90%;
+}
+
+.wrapper h2 {
+  font-size: 31px;
+  font-family: TwitterChirpExtendedHeavy;
+  position: relative;
+  opacity: 90%;
+  top: 8px;
+  left: 8px;
+}
+
+.wrapper .gbtn:hover {
+  background-color: #dddddd;
+  transition: 0.3s;
+}
+
+.wrapper .abtn:hover {
+  background-color: #dddddd;
+  transition: 0.3s;
+}
+
+.wrapper .crbtn:hover {
+  background-color: #1c8eda;
+  transition: 0.3s;
+}
+
+.wrapper .sbtn:hover {
+  background-color: #07101a;
+  transition: 0.3s;
+}
+
+.wrapper .gbtn {
+  width: 300px;
+  height: 36px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #0f1419;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.wrapper .abtn {
+  width: 300px;
+  height: 36px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #0f1419;
+  font-weight: 600;
+}
+
+.wrapper .crbtn {
+  width: 300px;
+  height: 36px;
+  background: #1d9bf0;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600;
+  position: relative;
+  bottom: 170px;
+  left: 10px;
+}
+
+.wrapper .sbtn {
+  width: 300px;
+  height: 36px;
+  background: #000;
+  border: 1px solid black;
+  border-color: rgb(83, 100, 113);
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #1d9bf0;
+  font-weight: 600;
+  position: relative;
+  bottom: 120.5px;
+  left: 9.5px;
+}
+
+.g1btn i {
+  text-shadow: 0 0 1px #000, 0 0 1px #000;
+  position: absolute;
+  right: 523px;
+  top: 17.5px;
+  color: #000;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.a1btn i {
+  text-shadow: 0 0 1px #000, 0 0 1px #000;
+  position: absolute;
+  right: 523px;
+  top: 17px;
+  color: #000;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.terms {
+  font-size: 11px;
+  width: 55%;
+  position: relative;
+  bottom: 175px;
+  left: 10px;
+  color: #71767b;
+}
+
+.terms p a {
+  color: #1d9bf0;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.terms p a:hover {
+  text-decoration: underline;
+}
+
+.hr-lines:before {
+  content: " ";
+  display: flex;
+  height: 1px;
+  width: 134.92px;
+  background: #fff;
+  opacity: 20%;
+  position: absolute;
+  top: 50%;
+  left: 104px;
+}
+
+.hr-lines:after {
+  content: " ";
+  height: 1px;
+  width: 134.92px;
+  background: #fff;
+  opacity: 20%;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 104px;
+}
+
+.hr-lines {
+  position: relative;
+  max-width: 500px;
+  margin: 100px auto;
+  text-align: center;
+  left: -140px;
+}
+
+.wrapper h3 {
+  font-size: 15px;
+  right: 150px;
+  margin: none;
+  bottom: 80px;
+}
+
+.wrapper .account {
+  font-size: 17.3px;
+  font-weight: bold;
+  position: relative;
+  bottom: 122px;
+  left: 10px;
+  opacity: 90%;
+}
+
+.wrapper .g1btn {
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
+
+.wrapper .a1btn {
+  position: relative;
+  top: 12px;
+  left: 10px;
+}
